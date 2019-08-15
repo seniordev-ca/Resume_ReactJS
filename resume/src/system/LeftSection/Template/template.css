@@ -1,0 +1,30 @@
+.template-section-wrapper{
+    margin-bottom: 40px;
+}
+
+.template-content {
+    margin-bottom: 24px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.template-content:last-child {
+    margin-bottom: 0px;
+}
+
+.template-half-section{
+    margin-right: 40px;
+    flex: 0 0 calc(50% - 20px);
+}
+
+.template-half-section:last-child {
+    margin-right: 0px;
+}
+
+.resume-template-content {
+    display: block;
+}
+
+.accent-color-wrapper {
+
+}

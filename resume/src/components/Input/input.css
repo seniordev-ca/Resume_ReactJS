@@ -1,0 +1,48 @@
+.form-input-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.form-input {
+    font-size: 21px;
+    width: 100%;
+    display: block;
+    caret-color: rgb(33, 150, 243);
+    background-color: rgb(242, 245, 250);
+    color: rgb(38, 43, 51);
+    pointer-events: unset;
+    border-radius: 3px;
+    padding: 11px 16px;
+    outline: none;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    transition: color 0.1s ease 0s;
+}
+
+.form-input-underline-hide {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 2px;
+    background-color: rgb(33, 150, 243);
+    pointer-events: none;
+    opacity: 0;
+    transform: scaleX(0.5);
+    border-radius: 0px 0px 2px 2px;
+}
+
+.form-input-underline-show {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 2px;
+    background-color: rgb(33, 150, 243);
+    pointer-events: none;
+    opacity: 1;
+    transform: scaleX(1);
+    border-radius: 0px 0px 2px 2px;
+}
