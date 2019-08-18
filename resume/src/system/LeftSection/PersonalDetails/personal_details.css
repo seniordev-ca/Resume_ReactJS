@@ -1,0 +1,13 @@
+.personal-details-container {
+    margin-bottom: 40px;
+}
+
+.personal-details-wrapper {
+
+}
+
+.form-section-one-line{
+    margin-bottom: 24px;
+    display: flex;
+    flex-flow: row wrap;
+}

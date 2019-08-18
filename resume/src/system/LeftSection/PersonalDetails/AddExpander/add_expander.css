@@ -1,0 +1,23 @@
+.add-expander {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: rgb(33, 150, 243);
+    cursor: pointer;
+    display: inline-block;
+}
+
+.add-expander-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dkddMn {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateY(0px) rotate(90deg);
+}
+
+.dkddMn > path {
+    fill: rgb(33, 150, 243);
+}

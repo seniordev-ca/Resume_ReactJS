@@ -1,0 +1,17 @@
+.preview-container {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    bottom: 74px;
+    left: 74px;
+    right: 74px;
+}
+
+.preview-wrapper{
+    display: inline-block;
+    position: relative;
+}

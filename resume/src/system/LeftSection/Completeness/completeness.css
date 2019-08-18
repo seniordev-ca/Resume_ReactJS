@@ -103,6 +103,10 @@
     height: 100%;
 }
 
+.progress-comments-help-icon-wrapper > svg > path {
+    fill: rgb(37, 184, 105);
+}
+
 .MuiLinearProgress-root {
     height: 3px !important;
 }

@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
+import CloseButton from "../components/CloseButton";
+import Preview from "../system/RightSection/Preview";
 
 class RightSectionGrid extends Component{
 
     render() {
         return (
             <div className={"right-section-grid"}>
-                <h1>This is Right.</h1>
+                <CloseButton/>
+                <Preview/>
             </div>
         );
     }

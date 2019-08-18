@@ -1,0 +1,100 @@
+.preview-header {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    height: 40px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+.preview-header-left {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    position: absolute;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    left: 0px;
+    color: rgb(255, 255, 255);
+    flex-flow: row nowrap;
+}
+
+.preview-header-left-icon {
+    margin-right: 4px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.preview-header-left-icon::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiP…50cz0iOSAxMS41IDExLjUgMTQgMTUgMTAiPjwvcG9seWxpbmU+CiAgICA8L2c+Cjwvc3ZnPg==);
+    background-size: 100% 100%;
+    background-position: center center;
+    animation: 0s ease 0s 1 normal none running none;
+}
+
+.preview-header-center {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.preview-header-center-left-icon {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgba(15, 20, 31, 0);
+    opacity: 0.3;
+    pointer-events: none;
+    transform: rotate(180deg);
+    border-radius: 14px;
+    transition: background-color 0.1s ease 0s;
+}
+
+.preview-header-center-right-icon {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgba(15, 20, 31, 0);
+    opacity: 0.3;
+    pointer-events: none;
+    border-radius: 14px;
+    transition: background-color 0.1s ease 0s;
+}
+
+.preview-header-center-pagination {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    font-variant-numeric: tabular-nums;
+    margin: 0px 6px;
+}

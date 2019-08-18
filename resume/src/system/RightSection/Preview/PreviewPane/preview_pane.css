@@ -1,0 +1,13 @@
+.preview-pane-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    overflow: hidden;
+
+    width: 480px;
+    height: 676px;
+
+}
+
+.preview-pane-wrapper {
+
+}

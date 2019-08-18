@@ -1,0 +1,109 @@
+.preview-footer {
+    position: absolute;
+    bottom: -62px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    left: 50%;
+    margin-left: -225px;
+    width: 450px;
+}
+
+.preview-footer-left-wrapper {
+    height: 38px;
+    user-select: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgba(15, 20, 31, 0);
+    padding: 0px 16px 0px 8px;
+    border-radius: 19px;
+    transition: background-color 0.1s ease 0s;
+}
+
+.preview-footer-left-wrapper:hover {
+    background-color: rgba(15, 20, 31, 0.15);
+}
+
+.preview-footer-left-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.preview-footer-left-icon path {
+    fill: white;
+}
+
+.preview-footer-left-text {
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.preview-footer-right-wrapper {
+    display: flex;
+}
+
+.preview-share-button {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    display: inline-block;
+    -webkit-appearance: none;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    pointer-events: auto;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 0px 1px inset;
+    color: rgb(255, 255, 255);
+    margin-right: 8px;
+    outline: none;
+    padding: 14px 24px;
+    border-radius: 4px;
+    transition: background-color 0.1s ease 0s, box-shadow 0.1s ease 0s;
+    border-width: 0px;
+}
+
+.preview-share-button:active {
+    background-color: rgb(22, 138, 230);
+}
+
+.preview-share-button:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 0px 1px inset;
+}
+
+.preview-download-button {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    display: inline-block;
+    -webkit-appearance: none;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(33, 150, 243);
+    color: rgb(255, 255, 255);
+    pointer-events: all;
+    outline: none;
+    padding: 14px 24px;
+    border-radius: 4px;
+    transition: background-color 0.1s ease 0s, box-shadow 0.1s ease 0s;
+    border-width: 0px;
+}
+
+.preview-download-button:hover,.preview-download-button:active {
+    background-color: rgb(22, 138, 230);
+}

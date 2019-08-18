@@ -1,0 +1,96 @@
+.add-section-custom, .add-section-activities, .add-section-hobbies, .add-section-references {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 12px;
+    user-select: none;
+    width: calc(50% - 32px);
+    margin-right: 32px;
+    cursor: pointer;
+    color: rgb(38, 43, 51);
+    flex-flow: row nowrap;
+    flex: 0 0 calc(50% - 32px);
+}
+
+.add-section-custom::before {
+    content: "";
+    margin-right: 8px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(https://cdn.resume.io/packs/media/resume-editor/section-custom-b586e0c5.svg);
+}
+
+.add-section-courses, .add-section-internships, .add-section-languages {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 12px;
+    user-select: none;
+    width: calc(50% - 32px);
+    margin-right: 0px;
+    cursor: pointer;
+    color: rgb(38, 43, 51);
+    flex-flow: row nowrap;
+    flex: 0 0 calc(50% - 32px);
+}
+
+.add-section-courses::before {
+    content: "";
+    margin-right: 8px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(https://cdn.resume.io/packs/media/resume-editor/section-courses-abcca1ef.svg);
+}
+
+.add-section-activities::before {
+    content: "";
+    margin-right: 8px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(https://cdn.resume.io/packs/media/resume-editor/section-activities-69cd8a56.svg);
+}
+
+.add-section-internships::before {
+    content: "";
+    margin-right: 8px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(https://cdn.resume.io/packs/media/resume-editor/section-internships-94e64d77.svg);
+}
+
+.add-section-hobbies::before {
+    content: "";
+    margin-right: 8px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(https://cdn.resume.io/packs/media/resume-editor/section-hobbies-ed1ccf26.svg);
+}
+
+.add-section-languages::before {
+    content: "";
+    margin-right: 8px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(https://cdn.resume.io/packs/media/resume-editor/section-languages-b71ca46e.svg);
+}
+
+.add-section-references::before {
+    content: "";
+    margin-right: 8px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(https://cdn.resume.io/packs/media/resume-editor/section-references-3df95149.svg);
+}
+
+.add-section-custom:hover, .add-section-activities:hover,
+.add-section-hobbies:hover, .add-section-references:hover,
+.add-section-courses:hover, .add-section-internships:hover, .add-section-languages:hover {
+    color: rgb(33, 150, 243);
+}

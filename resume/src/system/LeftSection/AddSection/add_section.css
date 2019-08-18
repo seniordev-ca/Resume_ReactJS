@@ -1,0 +1,7 @@
+.add-section-buttons-container {
+    position: relative;
+    left: -4px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
